@@ -53,7 +53,7 @@ function Home(){
                             <li>Reduced Labor Costs</li>
                             <li>Reduced Dimes Loss</li>
                         </ul>
-                        <Link to="/cs100" className="button-link"
+                        <Link to="/ds100" className="button-link"
                         onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
                         Learn More</Link>
                         
@@ -78,7 +78,7 @@ function Home(){
                             <li>Automated detection of damaged dimes</li>
                             <li>Automated uploads to inventory management systems</li>
                         </ul>
-                        <Link to="/cs100" className="button-link"
+                        <Link to="/ds100" className="button-link"
                         onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
                         Learn More</Link>
                         
@@ -119,7 +119,7 @@ function Home(){
                             <li>Sort your way: Bulk Totes, Bags, Dime Sets</li>
                             <li>WE DO DIME ROLL UPS!</li>
                         </ul>
-                        <Link to="/cs100" className="button-link" 
+                        <Link to="/ds100" className="button-link" 
                         onClick={() => window.scrollTo({ top: 0, behavior: 'instant' })}>
                         Learn More</Link>
                         <Link to="/contact" className="button-link"
