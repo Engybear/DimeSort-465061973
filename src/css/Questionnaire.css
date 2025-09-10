@@ -1,0 +1,141 @@
+.checkbox-group {
+    margin-bottom: 2rem; 
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+    margin-bottom: 0.5em;
+}
+
+.checkbox-item input {
+    display: inline;
+    max-width: 1rem;
+    accent-color: #1787c8;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.5em;
+    transform: scale(1.2);
+    transition: box-shadow 0.2s
+}
+
+.checkbox-item input:hover {
+    box-shadow: 0 0 4px 1px #1787c855;
+}
+
+
+.radio-group input {
+    accent-color: #1787c8;
+}
+.radio-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    margin-right: 1.5em;
+}
+.radio-group {
+    margin-bottom: 0.5rem; 
+    justify-content: left;
+}
+
+.questionnaire-form label{
+    margin-top: 1rem;
+}
+.questionnaire-form input {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.questionnaire-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.name-row {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0px;
+}
+.name-field {
+    width: 100%;
+    flex: 1;
+}
+
+.name-field label {
+  margin-top: 0px;
+}
+
+.name-field input {
+  width: 100%;
+}
+
+.required {
+    font-weight: normal;
+    color: #575757;
+    font-size: 0.9rem;
+}
+
+button {
+    display: inline-block;
+    white-space: nowrap;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: box-shadow 0.2s, background 0.2s, color 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    margin: 0.5em 0.5em 0.5em 0;
+}
+button:hover{
+    background: #159dee;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(21,157,238,0.15);
+    outline: none;
+}
+
+.questionnaire-logo {
+    width:500px;
+    height:190px;
+    margin-bottom: 3rem;
+    
+}
+
+.questionnaire-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 60ch;
+}
+
+.questionnaire {
+    width: 95vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
